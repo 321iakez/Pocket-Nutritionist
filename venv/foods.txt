@@ -1,2 +1,18 @@
 basic space separated list of foods to include in the project prototype
+(find a better source that stores all the most common food ingredients in an orderly manner.)
 
+MEATS
+
+Pork Beef Lamb Chicken Turkey Venison Duck Bison Goose Rabbit
+
+DAIRY
+
+Milk Cheese Yogurt
+
+VEGETABLES
+
+Broccoli Kale Beans Lettuce Celery Carrots
+
+FRUITS
+
+Apple Banana Grapes Cherry Orange
