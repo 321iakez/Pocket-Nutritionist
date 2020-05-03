@@ -1,0 +1,2 @@
+basic space separated list of foods to include in the project prototype
+

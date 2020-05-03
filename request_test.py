@@ -3,10 +3,13 @@ import psycopg2
 
 conn = psycopg2.connect(database="testdb", host="localhost", user="postgres", password="postgres")
 cur = conn.cursor()
+
 cur.execute("CREATE TABLE pytable (id serial PRIMARY KEY, num integer, data varchar);")
 conn.commit()
+
 cur.close()
 conn.close()
+
 """
 URL = "https://api.nal.usda.gov/fdc/v1/foods/search?api_key=DEMO_KEY"
 
